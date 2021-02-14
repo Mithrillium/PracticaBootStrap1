@@ -52,10 +52,12 @@
   </nav>
   <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 border bg-light my-1 text-justify text-center">
+        <!--El "order-tamaño-numero" cambia el qué se mostrará primero dado un tamaño-->
+        <!--Al ponerlo así se muestra primero la foto del gato siempre-->
+        <div class="col-lg-6 col-md-6 col-sm-12 border bg-light my-1 text-justify text-center order-sm-12 order-md-1 order-lg-1 order-12">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam molestias repellendus. Illum sunt odit labore. Assumenda nulla, quas a sequi fugit inventore quo laboriosam molestiae optio ab accusamus sit qui voluptatum, aut rem.</p>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 border bg-light my-1 d-flex justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 border bg-light my-1 d-flex justify-content-center order-sm-1 order-md-12 order-lg-12 order-1">
           <img class="rounded-circle my-1" src="/img/imgEjemplo.jpg" alt="gato">
         </div>
       </div>
@@ -64,34 +66,37 @@
           <img class="rounded-circle my-1" src="/img/imgEjemplo.jpg" alt="gato">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 border bg-light my-1 text-justify text-center">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam molestias repellendus. Illum sunt odit labore. Assumenda nulla, quas a sequi fugit inventore quo laboriosam molestiae optio ab accusamus sit qui voluptatum, aut rem. Placeat, repellendus ipsa. Eveniet cupiditate rerum id minima, perspiciatis blanditiis fugit rem et asperiores, neque quisquam explicabo aut ipsum. Explicabo magnam repellat delectus officiis unde, sed labore quibusdam porro non numquam sit quam modi excepturi laborum nihil in! Nostrum, aperiam recusandae.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam molestias repellendus. Illum sunt odit labore. Assumenda nulla, quas a sequi fugit inventore quo laboriosam molestiae optio ab accusamus sit qui voluptatum, aut rem.</p>
         </div>
       </div>
-      <div class="row text-center border">
+      <div class="row text-center border my-1">
         <div class="col-lg-4 col-md-12 col-sm-12 bg-secondary">
-          <p>Ejemplo</p>
+          <h3>Ejemplo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio aspernatur fugiat minima voluptates, sit consectetur! Deserunt fugit eum atque odit reprehenderit. Earum, maiores reprehenderit!</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 bd-dark">
-          <p>Ejemplo</p>
+          <h3>Ejemplo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio aspernatur fugiat minima voluptates, sit consectetur! Deserunt fugit eum atque odit reprehenderit. Earum, maiores reprehenderit!</p>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 bg-secondary">
-          <p>Ejemplo</p>
+          <h3>Ejemplo</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum distinctio aspernatur fugiat minima voluptates, sit consectetur! Deserunt fugit eum atque odit reprehenderit. Earum, maiores reprehenderit!</p>
         </div>
       </div>
   </div>
   <footer class="footer">
-    <div class="bg-dark container-fluid alFondoBitc">
+    <div class="bg-dark container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col-3 text-white">
+          <div class="col-3 text-white justify-content-center">
             <h4>Sobre nosotros:</h4>
             <p class="ml-2">- Cosas</p>
             <p class="ml-2">- Mas Cosas</p>
           </div>
           <div class="col-6 d-flex justify-content-center my-2">
-            <img src="/img/logoEjemplo.png" alt="locoEjemplo" width="140" height="140">
+            <img class="rounded" src="/img/logoEjemplo.png" alt="locoEjemplo" width="140" height="140">
           </div>
-          <div class="col-3 text-white ">
+          <div class="col-3 text-white justify-content-center">
             <h4>Contacta:</h4>
             <p class="ml-2">- Telefono:</p>
             <p class="ml-2">- Mail:</p>
